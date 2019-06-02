@@ -6,9 +6,11 @@
 
 ## DEMO サイト
 
+https://admiring-brattain-8251ca.netlify.com/
+
 ## インストール方法
 
-`git clone https://github.com/adash333/elm-github-viewer1.git`
+`git clone https://github.com/adash333/elm-github-viewer2.git`
 
 Run `elm install elm/http`
 
