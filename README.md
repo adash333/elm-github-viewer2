@@ -1,4 +1,4 @@
-# elm-github-viewer1
+# elm-github-viewer2
 
 このページは、以下の本を写経しながら、Elm0.19 アプリ作成の練習を行っているものです。
 
