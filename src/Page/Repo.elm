@@ -62,8 +62,9 @@ view model =
             ul [] (List.map (viewIssue model.userName model.projectName) issues)
 
         Error e ->
-            text (Debug.toString e)
+            -- text (Debug.toString e)
             -- ここのDebugは、productionのときにはコメントアウトまたは変更する。
+            text "error"
 
 viewIssue : String -> String -> Issue -> Html Msg
 viewIssue userName projectName issue =

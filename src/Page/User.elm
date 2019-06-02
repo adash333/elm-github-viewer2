@@ -68,7 +68,8 @@ view model =
                 )
 
         Error e ->
-            text (Debug.toString e)
+            -- text (Debug.toString e)
+            text "error"
 
 
 viewLink : String -> Html Msg

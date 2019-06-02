@@ -99,7 +99,8 @@ view model =
                         pre [] [ text message ]
 
                     _ ->
-                        text (Debug.toString e)
+                        -- text (Debug.toString e)
+                        pre [] [ text "error" ]
         ]
 
 
